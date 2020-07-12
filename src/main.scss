@@ -1,3 +1,12 @@
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Quicksand', sans-serif;
+  color: #343434;
+}
+html, body {
+  overflow-x: hidden;
+}
 body,figure, h1, h2, h3, p {
   margin: 0;
   padding: 0;
@@ -12,6 +21,10 @@ a {
   color: #fff;
   font-weight: 700;
 }
+.header {
+  min-width: 768px;
+  overflow: hidden;
+}
 
 [role=button], [type=button], [type=checkbox], [type=radio], [type=submit], a, button, select {
   cursor: pointer;
@@ -25,11 +38,6 @@ a {
 ::selection {
   background: #42C6FF;
   color: #fff
-}
-
-html {
-  font-family: 'Quicksand', sans-serif;
-  color: #343434;
 }
 
 .container {
