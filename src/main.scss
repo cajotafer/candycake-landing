@@ -181,6 +181,11 @@ a {
   background:linear-gradient(135deg,#E5526A,#bb4156);
   border-radius: 20px;
 
+  @media screen and (min-width: 420px) {
+    max-width: 302px;
+  }
+
+
   &__title{
     font-weight: 700;
     letter-spacing: .05em;
@@ -201,6 +206,9 @@ a {
     border-radius: 5px;
     margin-bottom: .5em;
     padding: .7em .9em;
+  }
+  &__test {
+    overflow: hidden;
   }
   &__submit {
     border-radius: 5px;
